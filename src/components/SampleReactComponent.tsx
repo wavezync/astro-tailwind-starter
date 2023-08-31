@@ -13,7 +13,7 @@ export default function SampleReactComponent() {
         onClick={() => setValue((val) => val + 1)}
         className="text-white bg-slate-800 hover:bg-slate-600 hover:text-blue-200 rounded-md p-1 m-2"
       >
-        Increase
+        Increase 2
       </button>
     </div>
   );
