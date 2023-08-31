@@ -4,8 +4,9 @@ export default function SampleReactComponent() {
   const [value, setValue] = useState(0);
 
   return (
-    <>
-      <span className="text-center p-1 m-2 bg-orange-500 text-white">
+    <div className="p-5">
+      <div className="text-2xl">This is a sample react component</div>
+      <span className="text-center p-2 m-2 bg-orange-500 text-white">
         Value: {value}
       </span>
       <button
@@ -14,6 +15,6 @@ export default function SampleReactComponent() {
       >
         Increase
       </button>
-    </>
+    </div>
   );
 }
